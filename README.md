@@ -120,4 +120,3 @@ $ iTerm2/iterm.sh
 ```bash
 $ brew bundle --file=brew/Brewfile
 ```
-# dotfiles
