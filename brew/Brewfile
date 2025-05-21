@@ -4,7 +4,7 @@ brew 'screenfetch'
 brew 'tmux'
 
 # Casks
-cask '1password7'
+cask '1password'
 cask 'chromedriver'
 cask 'discord'
 cask 'dropbox'
@@ -17,7 +17,6 @@ cask 'vlc'
 
 # Quick Look plugins
 cask 'qlcolorcode'
-cask 'qlimagesize'
 cask 'qlmarkdown'
 cask 'qlstephen'
 cask 'quicklook-csv'
