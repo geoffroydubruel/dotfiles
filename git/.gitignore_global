@@ -1,0 +1,46 @@
+## Databases
+*.sql
+db/*.sqlite3
+dump.rdb
+
+## Environment normalization:
+/.bundle
+
+## Ruby
+.byebug_history
+config/master.key
+
+## Node
+node_modules/
+bower_components/
+.sass-cache/
+.husky/
+
+## macOS
+*.DS_Store
+
+## Logs
+*.log
+
+## Rspec
+spec/test_files/
+/coverage/
+
+## Editors
+.vscode/
+.idea
+.rakeTasks
+.generators
+.cursorignore
+*.mdc
+
+## Env
+.env
+.env*.local
+
+## Ignore precompiled assets
+/public/packs
+/public/packs-test
+/public/assets
+/app/assets/builds/*
+!/app/assets/builds/.keep

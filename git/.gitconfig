@@ -1,0 +1,46 @@
+[user]
+  name = geoffroydubruel
+  email = geoffroy.dubruel@per-angusta.com
+[init]
+  defaultBranch = main
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore_global
+  autocrlf = input
+  ignorecase = false
+  untrackedCache = true
+  trustctime = false
+[pull]
+  rebase = true
+[push]
+  default = current
+  autoSetupRemote = true
+[merge]
+  ff = false
+[color]
+  ui = true
+[pager]
+  branch = false
+  diff = less -+FX
+[commit]
+  verbose = true
+[diff]
+  noprefix = true
+[protocol]
+  version = 2
+[rebase]
+  autoStash = true
+[alias]
+  ac = !git add . && git commit -m
+  amend = commit --amend --no-edit
+  edit = commit --amend --only
+
+  # Serve local repo. http://coderwall.com/p/eybtga
+  # Then other can access via `git clone git://#{YOUR_IP_ADDRESS}/
+  serve = !git daemon --reuseaddr --verbose  --base-path=. --export-all ./.git
+
+  # List contributors with number of commits
+  contributors = shortlog --summary --numbered --no-merges
+
+  # List last branches
+  wip = for-each-ref --sort='-authordate:iso8601' --count 40  --format=' %(color:green)%(authordate:relative)%09%(color:white)%(refname:short)' refs/heads --no-merged

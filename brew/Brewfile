@@ -1,0 +1,25 @@
+
+# install packages
+brew 'screenfetch'
+brew 'tmux'
+
+# Casks
+cask '1password7'
+cask 'chromedriver'
+cask 'discord'
+cask 'dropbox'
+cask 'firefox'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'rubymine'
+cask 'slack'
+cask 'vlc'
+
+# Quick Look plugins
+cask 'qlcolorcode'
+cask 'qlimagesize'
+cask 'qlmarkdown'
+cask 'qlstephen'
+cask 'quicklook-csv'
+cask 'quicklook-json'
+cask 'webpquicklook'
